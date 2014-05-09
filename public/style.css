@@ -1,0 +1,56 @@
+html {
+	background-image:url("images/monotone.jpg");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+	text-align: center;
+
+}
+
+h1 span {
+	background-color: #FAF7CA;
+	font-family: Georgia;
+}
+
+p span {
+	background-color: #BAB9AD;
+	color: #FF5938;
+	font-size: 16px;
+
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+li {
+    display: inline;
+}
+ul {
+    text-align: center;
+}
+.tab {
+    padding: 5px;
+    display: inline;
+    border-radius: 10px;
+    background-color: green;
+    position: relative;
+    right: 20px;
+}
+#home {
+    display:block;
+}
+#middleman {
+    display:none;
+}
+#portfolio {
+    display:none;
+}
+#tigers {
+    display:none;
+}
